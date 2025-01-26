@@ -113,6 +113,7 @@ const Signup = () => {
             <h1 className="text-2xl xl:text-3xl font-extrabold">
               Please Complete The Form
             </h1>
+            <span>after submitting form check mail</span>
             <div className="w-full flex-1 mt-8">
               <form onSubmit={handleSubmit}>
                 <div className="mx-auto max-w-xs">

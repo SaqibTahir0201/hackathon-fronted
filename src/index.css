@@ -96,12 +96,43 @@ button.secondary {
 button.secondary:hover {
   background-color: #5a6268;
 }
+/* Green Button */
 button.success {
   background-color: #28a745; /* Green */
   color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 button.success:hover {
-  background-color: #218838;
+  background-color: #218838; /* Darker Green */
+}
+
+/* Yellow Button */
+button.warning {
+  background-color: #ffc107; /* Yellow */
+  color: #212529; /* Dark text for contrast */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button.warning:hover {
+  background-color: #e0a800; /* Darker Yellow */
+}
+
+/* Red Button */
+button.danger {
+  background-color: #dc3545; /* Red */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button.danger:hover {
+  background-color: #c82333; /* Darker Red */
 }
 
 /* Input Fields */
